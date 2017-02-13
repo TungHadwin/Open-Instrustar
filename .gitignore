@@ -1,0 +1,47 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+*.pdb
+*.idb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+#
+*.log
+*.tlog
+*.spd
+*.iic
+*.cache
+*.aps
+
+#说明：忽略目录 Debug 下的全部内容；注意，不管是根目录下的 /Debug/ 目录，还是某个子目录 /child/Debug/ 目录，都会被忽略；
+Debug/
+Release/
+Win32/
+X64/
+/thelib/Crypto/
+_old/
+
